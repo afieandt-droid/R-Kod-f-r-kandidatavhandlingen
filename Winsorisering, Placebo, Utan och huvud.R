@@ -14,6 +14,7 @@ h1 <- feols(Kassa ~ Efter * LagPB, data = df, cluster = ~Ticker)
 h2 <- feols(Utbet ~ Efter * LagPB, data = df, cluster = ~Ticker)
 h3 <- feols(ROE   ~ Efter * LagPB, data = df, cluster = ~Ticker)
 h4 <- feols(ROA   ~ Efter * LagPB, data = df, cluster = ~Ticker)
+etable(h1, h2, h3, h4, digits = 4, signif.code = sig)
 
 plac <- df %>%
   filter(Ar <= 2023) %>%
