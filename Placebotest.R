@@ -18,4 +18,4 @@ did_plac <- list(
   ROE           = feols(ROE   ~ PlaceboEfter * LagPB, data = plac, cluster = ~Ticker),
   ROA           = feols(ROA   ~ PlaceboEfter * LagPB, data = plac, cluster = ~Ticker)
 )
-etable(did_plac, digits = 4)
+etable(did_plac, digits = 4, signif.code = c("***" = 0.01, "**" = 0.05, "*" = 0.10))
