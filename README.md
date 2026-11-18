@@ -11,4 +11,4 @@ Placebotest.R --> Placebotestet med räkenskapsåret 2023 som påhittad reform -
 
 Winsorisering, Placebo, Utan och huvud.R --> Huvudregresseion, placebotest och robusthet med winsorisering och utan Toho Zinc --> Tabell 9
 
-Data Kandidatavhandling.xlsx innehåller avhandlingens data för koden (Data formel)
+Data Kandidatavhandling.xlsx innehåller avhandlingens data för koden (Data formel), figurerna och den deskrpitiva statistiken
